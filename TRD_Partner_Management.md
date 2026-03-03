@@ -2,7 +2,7 @@
 
 ## 1. System Overview
 The Partner Management system centralizes the profiles and compliance data for all external entities interacting with Chinivar Foundation, including NGO beneficiaries, partner schools, and vendors.
-
+ 
 ## 2. API Endpoints Architecture
 
 | Endpoint                       | Method | Role Required     | Description                                                       |

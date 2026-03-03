@@ -2,7 +2,7 @@
 
 ## 1. System Overview
 The BELAKU Aahara subsystem controls the implementation of the food distribution arm of the NGO. It directly coordinates Target Entities (Beneficiary NGOs/Partners), Allocation rules, and distribution artifacts (Photos, grocery lists, bills) into auditable Project Events.
-
+ 
 ## 2. API Endpoints Architecture
 
 | Endpoint                              | Method | Role Required          | Description                                                |

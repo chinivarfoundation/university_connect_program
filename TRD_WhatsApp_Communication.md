@@ -2,7 +2,7 @@
 
 ## 1. System Overview
 WhatsApp serves as the primary bridge between the foundation and its external stakeholders (Donors, Mentors, Partners). This system handles automated notifications, receipt delivery, and AI-driven status queries via a chatbot interface.
-
+ 
 ## 2. API Endpoints Architecture
 
 | Endpoint                | Method | Role Required | Description                                       |

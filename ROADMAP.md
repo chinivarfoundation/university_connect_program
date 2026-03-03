@@ -1,7 +1,7 @@
 # Chinivar Foundation - Implementation Roadmap
 
 This roadmap outlines the 4-month development schedule for the Chinivar Foundation digital platform, starting April 1st.
-
+ 
 ## Phase 1: Core Foundation & Finance (April 1 - April 30)
 **Goal:** Establish the backend infrastructure and the critical donation/allocation logic.
 

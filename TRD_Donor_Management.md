@@ -2,7 +2,7 @@
 
 ## 1. System Overview
 The Donor & Donation Management System is the primary ingestion module for external funding. It provides an interface for both HO Finance and Chapter Treasurers to log donations (online/offline) and securely manages donor master profiles.
-
+ 
 ## 2. API Endpoints Architecture
 
 | Endpoint           | Method | Role Required                 | Description                                                                      |

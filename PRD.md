@@ -77,7 +77,7 @@ Role-based access controls with deep chapter-level data isolation:
 - Beneficiary NGO mapping.
 - Direct uploads for bills, grocery lists, and visual proof (photos).
 - Deep utilization tracking at the granular event level.
-
+ 
 ### 4.6 BELAKU Shikshana (Student Sponsorship System)
 - End-to-end management of the sponsored student lifecycle (New -> Background Verification -> Internal Review -> Selected/Rejected).
 - Central Student Master handling documents, CARE model tracking, mentor updates, and PTM logs.

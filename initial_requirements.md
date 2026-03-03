@@ -41,7 +41,7 @@ transparency, compliance, donor trust, and measurable impact** , including runni
 - Organization Name: Chinivar Foundation
 - Single legal entity
 - Centralized compliance & audit
-
+ 
 ## B2. Federated Structure
 
 ### Level 1: Head Office (HO)

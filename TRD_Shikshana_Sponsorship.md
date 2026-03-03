@@ -2,7 +2,7 @@
 
 ## 1. System Overview
 The BELAKU Shikshana module manages the end-to-end student sponsorship lifecycle. It tracks student progress using the "CARE" model and maps specific donors to student needs per academic year.
-
+ 
 ## 2. API Endpoints Architecture
 
 | Endpoint                      | Method  | Role Required | Description                                         |

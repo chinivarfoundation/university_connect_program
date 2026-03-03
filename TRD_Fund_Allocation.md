@@ -2,7 +2,7 @@
 
 ## 1. System Overview
 The Fund Allocation & Control Engine dictates how incoming funds are tracked, locked into designated accounts (Programs, Projects, or specific Students), and ultimately prevents double-spending or over-allocation.
-
+ 
 ## 2. API Endpoints Architecture
 
 | Endpoint                     | Method | Role Required               | Description                                                        |

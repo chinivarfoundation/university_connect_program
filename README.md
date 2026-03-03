@@ -1,7 +1,7 @@
 # Chinivar Foundation - Project Documentation
 
 Welcome to the documentation repository for the Chinivar Foundation digital platform. This file acts as the primary index and overview for all project-related documents.
-
+ 
 ## Technology Stack
 - **Backend Framework:** Laravel
 - **Database:** MySQL

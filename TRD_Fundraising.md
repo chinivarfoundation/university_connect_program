@@ -2,7 +2,7 @@
 
 ## 1. System Overview
 The Fundraising & Campaign Management module is an analytical and operational framework used to structure global marketing efforts, capture leads, map conversion funnels, and track the overall ROI vs internal fundraising targets.
-
+ 
 ## 2. API Endpoints Architecture
 
 | Endpoint                  | Method | Role Required     | Description                                                 |

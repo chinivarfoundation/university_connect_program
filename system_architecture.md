@@ -42,7 +42,7 @@ graph TD
        
        P_SHIKSHANA --> SSS[(Student Master & TIMING)]:::db
        P_AHARA --> SAS[(Events, Foods, Target Funds)]:::db
-   end
+   end 
 
    %% Color Definitions
    classDef core fill:#0f4b63,stroke:#fff,stroke-width:2px,color:#fff;
