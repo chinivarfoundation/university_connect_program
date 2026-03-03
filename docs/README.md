@@ -54,3 +54,31 @@ The digital platform is designed to consolidate the foundation's federated opera
 - [Partner Management](./TRD_Partner_Management.md)
 - [BELAKU Shikshana (Student Sponsorship)](./TRD_Shikshana_Sponsorship.md)
 - [WhatsApp Communication System](./TRD_WhatsApp_Communication.md)
+
+---
+
+## Serving Documentation Locally
+This documentation suite is configured for **Jekyll**. To preview the documentation as a website:
+
+1. Ensure you have Ruby and Jekyll installed.
+2. Navigate to the `university_connect_program` directory.
+3. Run:
+   ```bash
+   bundle install
+   bundle exec jekyll serve
+   ```
+4. Open `http://localhost:4000` in your browser.
+
+---
+
+## Serving Documentation Locally
+This documentation suite is configured for **Jekyll**. To preview the documentation as a website:
+
+1. Ensure you have Ruby and Jekyll installed.
+2. Navigate to the `university_connect_program` directory.
+3. Run:
+   ```bash
+   bundle install
+   bundle exec jekyll serve
+   ```
+4. Open `http://localhost:4000` in your browser.
