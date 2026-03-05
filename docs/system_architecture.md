@@ -55,7 +55,7 @@ graph TD
    classDef module_allo fill:#2d51b3,stroke:#000,color:#fff;
    classDef module_shik fill:#b8991a,stroke:#000,color:#fff;
    classDef module_aha fill:#ba5e13,stroke:#000,color:#fff;
-   classDef db fill:#363533,stroke:#e8c610,stroke-width:3px,color:#fff;
+   classDef db fill:#000,stroke:#e8c610,stroke-width:3px,color:#fff;
 ```
 
 ### Module Responsibilities Map:
