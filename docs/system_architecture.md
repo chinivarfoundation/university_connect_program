@@ -5,43 +5,43 @@ This document visualizes the macro system architecture for the Chinivar Foundati
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0883b2', 'edgeLabelBackground':'#181919', 'tertiaryColor': '#cc99cc', 'lineColor' : '#222' }}}%%
 graph TD
-   subgraph External Users
-        D([Donors & Mentors - Web Portal]):::external
-        V[Vendors & Beneficiaries - Uploads & Verification]:::external
-        M((WhatsApp / SMS Channel)):::channel
+   subgraph "External Users"
+        D(["Donors & Mentors - Web Portal"]):::external
+        V["Vendors & Beneficiaries - Uploads & Verification"]:::external
+        M(("WhatsApp / SMS Channel")):::channel
    end
    
-   D -- "Auth & Donate" --> A(Laravel Access Gateway / API):::core
+   D -- "Auth & Donate" --> A("Laravel Access Gateway / API"):::core
    M -- "Updates & Alerts" --> A
    V -- "Access & Submission" --> A
    
-   subgraph Core Laravel Engine 
-        A --> |Routing & Middlewares| B
-        B{Application Logistics Controller}:::core
+   subgraph "Core Laravel Engine"
+        A --> |"Routing & Middlewares"| B
+        B{"Application Logistics Controller"}:::core
         
-        B -.-> |Donation Processing| D_MONEY[Donor Module]:::module_don
-        B -.-> |Verification & Profile| D_PART[Partner Management Module]:::module_part
-        B -.-> |Fund Locks & Grants| D_ALLOC[Allocation Engine]:::module_allo
+        B -.-> |"Donation Processing"| D_MONEY["Donor Module"]:::module_don
+        B -.-> |"Verification & Profile"| D_PART["Partner Management Module"]:::module_part
+        B -.-> |"Fund Locks & Grants"| D_ALLOC["Allocation Engine"]:::module_allo
         
-        B -.-> |Sponsorship Workflow| P_SHIKSHANA[Shikshana Module: Student Sponsorship]:::module_shik
-        B -.-> |Food & Event Workflow| P_AHARA[Aahara Module: Food Program]:::module_aha
+        B -.-> |"Sponsorship Workflow"| P_SHIKSHANA["Shikshana Module: Student Sponsorship"]:::module_shik
+        B -.-> |"Food & Event Workflow"| P_AHARA["Aahara Module: Food Program"]:::module_aha
    end
 
-   subgraph Federated Governance (Admin Backoffice)
-        HO((Head Office Admin)):::admin --> B
-        HOF(Head Office Finance):::admin --> B
+   subgraph "Federated Governance (Admin Backoffice)"
+        HO(("Head Office Admin")):::admin --> B
+        HOF("Head Office Finance"):::admin --> B
         
-        CA((Chapter Admins)):::chapterad --> B
-        CT(Chapter Treasurer):::chapterad --> B
+        CA(("Chapter Admins")):::chapterad --> B
+        CT("Chapter Treasurer"):::chapterad --> B
    end
    
-   subgraph Global Database Cluster MySQL
-       D_MONEY --> DS[(Donation Tables & Ledger)]:::db
-       D_PART --> PS[(User & Partner Records)]:::db
-       D_ALLOC --> AS[(Allocated Funds Track)]:::db
+   subgraph "Global Database Cluster MySQL"
+       D_MONEY --> DS[("Donation Tables & Ledger")]:::db
+       D_PART --> PS[("User & Partner Records")]:::db
+       D_ALLOC --> AS[("Allocated Funds Track")]:::db
        
-       P_SHIKSHANA --> SSS[(Student Master & TIMING)]:::db
-       P_AHARA --> SAS[(Events, Foods, Target Funds)]:::db
+       P_SHIKSHANA --> SSS[("Student Master & TIMING")]:::db
+       P_AHARA --> SAS[("Events, Foods, Target Funds")]:::db
    end 
 
    %% Color Definitions
